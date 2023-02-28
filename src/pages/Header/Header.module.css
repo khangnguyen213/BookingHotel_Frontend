@@ -1,0 +1,38 @@
+.header {
+  display: block;
+  background-color: rgba(15, 23, 114, 0.845);
+  color: rgba(255, 255, 255, 0.813);
+  padding: 1rem 15rem 5rem 15rem;
+  position: relative;
+}
+
+.header h1 {
+  color: white;
+  font-size: 2rem;
+}
+
+.header p {
+  font-size: 1rem;
+}
+
+.header h1,
+.header p,
+.header button {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 100%;
+}
+
+.header button {
+  margin: 0.2rem 0rem;
+  background-color: rgba(63, 100, 248, 0.703);
+  color: white;
+  border-color: transparent;
+}
+
+.header form {
+  position: absolute;
+  left: 15rem;
+  right: 15rem;
+  bottom: -2rem;
+}

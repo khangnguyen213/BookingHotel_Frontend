@@ -1,0 +1,54 @@
+.hotel__container {
+  width: 11.8rem;
+  height: 14rem;
+  border-radius: 1rem;
+  background-size: cover;
+  position: relative;
+}
+
+.hotel__container p {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  bottom: -3.5rem;
+  font-size: 1rem;
+}
+
+.hotel__container h1 {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  bottom: -2.2rem;
+  font-size: 1.5rem;
+}
+
+.hotel_infor {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  bottom: -6rem;
+  font-size: 0.8rem;
+  list-style: none;
+  padding: 0rem;
+}
+
+.hotel_infor li {
+  padding: 0.2rem 0rem;
+}
+
+.hotel_name {
+  font-weight: bold;
+  text-decoration: underline;
+  color: rgb(108, 30, 181);
+}
+
+.hotel_name:hover {
+  cursor: pointer;
+}
+
+.hotel_price {
+  font-weight: bold;
+}
+
+.hotel_rate b {
+  background-color: rgba(15, 23, 114, 0.845);
+  color: white;
+  padding: 0.1rem;
+}

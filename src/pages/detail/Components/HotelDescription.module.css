@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  padding: 3rem 6rem;
+}
+
+.container_left {
+  width: 55rem;
+}
+
+.container h1 {
+  padding-bottom: 1rem;
+  font-size: 1.6rem;
+}
+
+.container_right {
+  width: 18rem;
+  background-color: rgba(127, 206, 255, 0.3);
+  padding: 1.4rem;
+}
+
+.container p {
+  font-size: 0.8rem;
+  padding-bottom: 1rem;
+}
+
+.container b {
+  font-size: 1.5rem;
+}
+
+.container button {
+  background-color: rgb(65, 94, 193);
+  color: white;
+  border: none;
+  border-radius: 0.3rem;
+  margin-top: 1rem;
+}

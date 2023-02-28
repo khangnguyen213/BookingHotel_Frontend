@@ -1,0 +1,11 @@
+.items_container li {
+  list-style: none;
+  font-size: 1rem;
+  line-height: 2.5rem;
+  color: rgba(41, 64, 156, 0.703);
+}
+
+.items_container li:hover {
+  cursor: pointer;
+  color: rgb(43, 13, 112);
+}

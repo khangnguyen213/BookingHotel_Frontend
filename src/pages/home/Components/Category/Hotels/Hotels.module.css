@@ -1,0 +1,9 @@
+.label {
+  margin-top: 3rem;
+  padding: 2rem 0rem;
+}
+
+.hotels__container {
+  display: flex;
+  justify-content: space-between;
+}

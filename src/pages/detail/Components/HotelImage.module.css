@@ -1,0 +1,12 @@
+.images_container {
+  display: flex;
+  padding: 0rem 6rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.images_container img {
+  width: 22rem;
+  height: 100%;
+  padding-bottom: 0.5rem;
+}

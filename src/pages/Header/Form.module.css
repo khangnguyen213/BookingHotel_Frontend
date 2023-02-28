@@ -1,0 +1,57 @@
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+.form {
+  display: flex;
+  background-color: white;
+  border: 0.3rem solid rgb(255, 197, 90);
+  border-radius: 0.5rem;
+}
+
+.form__controls,
+.form__actions {
+  display: flex;
+  align-items: center;
+  padding: 0rem 1rem;
+}
+
+.form__controls {
+  width: 100%;
+}
+
+.form__control {
+  padding-left: 1rem;
+  padding-right: 2rem;
+  width: 100%;
+  display: flex;
+}
+
+.form__control input {
+  border: transparent;
+  font-size: 0.7rem;
+  width: 100%;
+}
+
+.form__control i {
+  color: black;
+  padding-right: 1rem;
+}
+
+.form__actions {
+  padding-left: 0;
+}
+
+.form .form__actions button {
+  background-color: rgba(20, 54, 192, 0.703);
+  color: white;
+  border-color: transparent;
+}
+
+.form .form__actions button:hover {
+  background-color: rgb(20, 54, 192);
+  color: white;
+  border-color: transparent;
+}

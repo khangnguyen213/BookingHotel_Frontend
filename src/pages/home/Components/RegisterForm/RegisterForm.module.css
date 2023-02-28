@@ -1,0 +1,29 @@
+.register_form {
+  margin-top: 9rem;
+  padding: 4.5rem 15rem;
+  background-color: rgba(15, 23, 114, 0.845);
+}
+
+.register_form h1,
+.register_form p {
+  color: white;
+  padding-bottom: 1.5rem;
+  text-align: center;
+}
+
+.register_form form {
+  text-align: center;
+}
+
+.register_form input,
+.register_form button {
+  margin: 0;
+  padding: 0.4rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.4rem;
+  color: rgb(33, 33, 33);
+}
+
+.register_form input {
+  margin-right: 0.6rem;
+}

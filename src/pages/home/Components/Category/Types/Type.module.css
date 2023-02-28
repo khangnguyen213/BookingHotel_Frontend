@@ -1,0 +1,21 @@
+.type__container {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 1rem;
+  background-size: cover;
+  position: relative;
+}
+
+.type__container p {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  bottom: -3.5rem;
+  font-size: 1rem;
+}
+
+.type__container h1 {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  bottom: -2.2rem;
+  font-size: 1.5rem;
+}
